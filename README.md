@@ -93,7 +93,13 @@ Metadata is replicated using the Raft consensus algorithm among controllers.
 Brokers communicate with controllers directly (no ZooKeeper).
 
 ## Migration Process and Steps - (Apache Kafka)
-
+| Phase | Activity |
+|---|---|
+| Phase 1 | Environment Preparation |
+| Phase 2 | Controller Migration |
+| Phase 3 | Broker Migration |
+| Phase 4 | KRaft Finalization |
+| Phase 5 | Validation & Monitoring |
 ## Phase 1 – Preparation
 
 Upgraded Kafka cluster to version 3.9.1 (KRaft supported).
