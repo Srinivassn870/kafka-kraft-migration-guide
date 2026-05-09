@@ -68,14 +68,26 @@ clusters from ZooKeeper-based metadata management to KRaft (Kafka Raft) mode.
 
 - Reduced admin overhead — only one system to manage
 
+## 🏗️ Architecture Changes ##
 
+### Before — ZooKeeper-based (9 servers per cluster) ###
 
----
+Separate ZooKeeper cluster (3 nodes )
 
+Kafka brokers connect to ZooKeeper for metadata.
 
+Controller election handled by ZooKeeper.
 
-## 🏗️ Architecture Changes
+ ## After (KRaft-based Kafka) ##
+ 
+ZooKeeper completely removed.
 
+Kafka has two process roles:
 
+Broker: Handles client requests, topics, partitions, and replication.
 
-### Before — ZooKeeper-based (9 servers per cluster)
+Controller: Manages cluster metadata, leader election, and configuration.
+
+Metadata is replicated using the Raft consensus algorithm among controllers.
+
+Brokers communicate with controllers directly (no ZooKeeper).
