@@ -1,7 +1,9 @@
+# Phase-5 ZooKeeper Decommissioning
+
 # Final quorum check before removing ZooKeeper
 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-controller broker1.example.com:9093 describe --status
  
-# ZooKeeper Decommissioning
+
 
 # Final topic list check — compare with backup from Phase 1
 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1.example.com:9092 --list
