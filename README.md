@@ -70,7 +70,7 @@ clusters from ZooKeeper-based metadata management to KRaft (Kafka Raft) mode.
 
 ## 🏗️ Architecture Changes ##
 
-### Before — ZooKeeper-based (9 servers per cluster) ###
+### Before — ZooKeeper-based (9 servers per cluster 3 Kafka broker + 3 kafka connect node + 3 ZK) ###
 
 Separate ZooKeeper cluster (3 nodes )
 
