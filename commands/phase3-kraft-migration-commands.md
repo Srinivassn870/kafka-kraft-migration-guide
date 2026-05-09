@@ -1,3 +1,4 @@
+# PHASE 3 — Broker Migration Mode (Dual Write)
 # Stop broker gracefully — run one broker at a time
 /opt/kafka/bin/kafka-server-stop.sh
  
