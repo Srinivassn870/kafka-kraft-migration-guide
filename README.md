@@ -206,6 +206,7 @@ Assess performance and stability under typical workload.
 # Performance Benchmark: ZooKeeper vs. KRaft Mode
 
 Key Findings
+
 ✅ Double the throughput in KRaft mode compared to ZooKeeper.
 
 ✅ ~70% lower latencies across all percentiles.
