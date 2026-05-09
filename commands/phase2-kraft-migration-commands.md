@@ -1,3 +1,5 @@
+# Phase -2 Format Storage and Start KRaft Controllers
+
 # Format KRaft metadata storage on each broker node — run one at a time
 
 # Replace YOUR-CLUSTER-UUID with ID saved from Phase 1
