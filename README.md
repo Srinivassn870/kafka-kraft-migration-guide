@@ -93,13 +93,16 @@ Metadata is replicated using the Raft consensus algorithm among controllers.
 Brokers communicate with controllers directly (no ZooKeeper).
 
 ## Migration Process and Steps - (Apache Kafka)
+
 ## Phase 1 – Preparation
+
 Upgraded Kafka cluster to version 3.9.1 (KRaft supported).
 Validated application compatibility.
 Cluster tested in POC environment.
 Zookeeper metadata backup taken.
 
-STEP 1) Enable TRACE level logging for the migration 2)Retrieve the cluster ID of your Kafka cluster 
+Step 1) Enable TRACE level logging for the migration 
+Step 2)Retrieve the cluster ID of your Kafka cluster 
 
 ## Phase 2 - Start KRaft Controller in Migration mode (migration of the cluster metadata from ZooKeeper to the KRaft quorum)
 
