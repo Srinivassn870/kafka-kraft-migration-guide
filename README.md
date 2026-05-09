@@ -297,7 +297,12 @@ Delivering higher performance, stability, and cost savings.
 
 Continuous monitoring confirms stable runtime behavior and healthy controller quorum.
 
-Kafka operations (topic creation, ACLs, produce/consume) function seamlessly in the new mode.
+
+## Disclaimer
+
+This repository is created for learning and portfolio purposes.
+
+
 
 High availability validated: Controllers automatically failover without impacting operations.
 
