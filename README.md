@@ -11,7 +11,7 @@
 
 ![Status](https://img.shields.io/badge/Migration-Completed-green)
 
-![Migration](https://img.shields.io/badge/Migration-Completed-brightgreen
+
 
 
 ## 📌 Overview
