@@ -275,7 +275,7 @@ Downtime -Entire transition occurred with zero impact or downtime for our data p
 
 The transition of Kafka ecosystem from the ZooKeeper-based architecture to KRaft (Kafka Raft Metadata mode) is a critical, forward-looking strategic milestone. This document outlines not just a simple upgrade, but a fundamental architectural shift that aligns our platform with the future of  Apache Kafka .
 
-✅ I have:
+✅ Key Achievements:
 
 Successfully migrated from ZooKeeper to KRaft.
 
