@@ -1,4 +1,5 @@
-Switch to Full KRaft Mode
+# Phase- 4 Switch to Full KRaft Mode
+
 # Verify no ZooKeeper references remain in server.properties
 
 grep -i "zookeeper" /opt/kafka/config/server.properties
