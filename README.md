@@ -1,4 +1,4 @@
-# Kafka ZooKeeper to KRaft Migration Guide
+# ZooKeeper-based Kafka cluster to KRaft-based architecture Migration Guide 
 
 ### Based on Real Production Experience — 15 Clusters Migrated
 
@@ -101,7 +101,8 @@ Brokers communicate with controllers directly (no ZooKeeper).
 | Phase 2 | Controller Migration |
 | Phase 3 | Broker Migration |
 | Phase 4 | KRaft Finalization |
-| Phase 5 | Validation & Monitoring |
+| Phase 5 | Zookeeper Decommissioning|
+| Phase 6 | Validation & Monitoring |
 ## Phase 1 – Preparation
 
 Upgraded Kafka cluster to version 3.9.1 (KRaft supported).
